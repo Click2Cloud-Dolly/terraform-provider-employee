@@ -11,7 +11,7 @@ data "hashicups_employee" "employees" {
   provider = employee
 }
 
-# Returns all emolyees
+# Returns all employees
 output "all_employee" {
   value = data.hashicups_employee.employees.*
 
